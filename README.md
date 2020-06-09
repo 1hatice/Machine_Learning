@@ -1,5 +1,5 @@
 # Uygulama Adımları
-Her şeyden önce gerekli tüm kütüphaneler Python'e eklenir. Sonrasında veri seti kütüphaneler yardımıyla eklenir.
+Gerekli tüm kütüphaneler Python'e eklenir. Sonrasında veri seti kütüphaneler yardımıyla eklenir.
 Veri setindeki boş veri sayılarının tespiti yapılır. İsteğe göre boş veriler doldurulur ya da silinir. Bu işlemler sonrasında veri setindeki string değerler numeric değerlere çevrilir.
 Girdi değerleri ve hedef çıktı belirlenir. Verileri train ve test olarak bölmek için train_test_split fonksiyonu kullanılır. Hem eğitim seti hem test seti StandardScaler() sınıfı kullanılarak standartlaştırılır.
 İyi bir sonuç elde edene kadar Dense() sınıfı ile katman eklenir. Bu çalışmada 2 ara katman eklenmiştir. Birinci ara katman 9 nörondan oluşmuştur. İkinci ara katman 14 nörondan oluşmuştur.
